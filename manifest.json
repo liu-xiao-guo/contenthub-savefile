@@ -1,0 +1,17 @@
+{
+    "name": "contenthub-savefile.liu-xiao-guo",
+    "description": "description of contenthub-savefile",
+    "architecture": "all",
+    "title": "contenthub-savefile",
+    "hooks": {
+        "contenthub-savefile": {
+            "apparmor": "contenthub-savefile.apparmor",
+            "desktop":  "contenthub-savefile.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+
